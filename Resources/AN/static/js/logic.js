@@ -51,8 +51,8 @@ let icons = {
 d3.json('http://127.0.0.1:5000/api/BigDataBandits/Listings').then(function (data) {
   // Get today's date in the required format (e.g., "8/3/2023")
   // -- hardcode to test dataset
-  //let todayDate = '7/31/2023'
-  let todayDate = new Date().toLocaleDateString();
+  let todayDate = '7/31/2023'
+  //let todayDate = new Date().toLocaleDateString();
 
 
   // Filter the data to get only entries with today's date
